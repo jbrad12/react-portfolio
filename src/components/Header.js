@@ -17,9 +17,9 @@ export default function Header() {
             
             <nav className="nav">
                 {/* <NavLink to='/'>Home </NavLink> */}
-                <NavLink to='/bio'>Bio </NavLink>
-                <NavLink to='/contact'>Contact </NavLink>
-                <NavLink to='/projects'>Projects </NavLink>
+                <NavLink className="navItem" to='/bio'>BIO </NavLink>
+                <NavLink className="navItem" to='/contact'>CONTACT </NavLink>
+                <NavLink className="navItem" to='/projects'>PROJECTS </NavLink>
                 <h3 className="name">Jacob Bradshaw</h3>
              </nav>
 
