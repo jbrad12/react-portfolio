@@ -3,7 +3,7 @@ import Footer from "./components/Footer"
 import './App.css';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
 
 } from "react-router-dom";
 
