@@ -17,9 +17,9 @@ export default function Header() {
             
             <nav className="nav">
                 {/* <NavLink to='/'>Home </NavLink> */}
-                <NavLink className="navItem" to='/bio'>BIO </NavLink>
-                <NavLink className="navItem" to='/contact'>CONTACT </NavLink>
+                <NavLink className="navItem" to='/bio'>ABOUT </NavLink>
                 <NavLink className="navItem" to='/projects'>PROJECTS </NavLink>
+                <NavLink className="navItem" to='/contact'>CONTACT </NavLink>
                 <h3 className="name">Jacob Bradshaw</h3>
              </nav>
 
@@ -35,6 +35,7 @@ export default function Header() {
                 <Route path='/contact'>
                     <Contact />
                 </Route>
+                
                 {/* <Route exact path='/'>
                     <App />
                 </Route> */}

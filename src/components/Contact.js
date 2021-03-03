@@ -4,7 +4,7 @@
 export default function Contact() {
     return (
         <div className="contact">
-            <h1 className="text">Contact</h1>
+            <h1 className="contactText">Contact</h1>
             <div className="list-group">
                 <h3>Email:  <a className="conLink" href = "mailto: jakebradshaw123@gmail.com"> Send Email</a></h3>
                 <h3>GitHub:  <a className="conLink" href="https://github.com/jbrad12" target="_blank"> Jbrad12</a></h3>
