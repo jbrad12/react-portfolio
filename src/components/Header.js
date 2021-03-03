@@ -8,7 +8,7 @@ import {
   import Bio from "./Bio"
   import Contact from "./Contact"
   import ProjectList from "./ProjectList"
-  import App from "../App"
+
 
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
             
             <nav className="nav">
                 {/* <NavLink to='/'>Home </NavLink> */}
-                <NavLink className="navItem" to='/bio'>ABOUT </NavLink>
+                <NavLink className="navItem" to='/'>ABOUT </NavLink>
                 <NavLink className="navItem" to='/projects'>PROJECTS </NavLink>
                 <NavLink className="navItem" to='/contact'>CONTACT </NavLink>
                 <h3 className="name">Jacob Bradshaw</h3>
@@ -26,7 +26,7 @@ export default function Header() {
            
 
              <Switch>
-                <Route path='/bio'>
+                <Route exact path='/'>
                     <Bio />
                 </Route>
                 <Route path='/projects'>

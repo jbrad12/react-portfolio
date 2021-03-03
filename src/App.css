@@ -25,7 +25,7 @@ body {
 
 .project {
   flex: 1;
-   height: 38vh;
+   height: 37vh;
    width: 31%;
    border: 0.3rem solid rgb(58, 57, 57);
    border-radius: 1rem;
@@ -64,6 +64,7 @@ a {
 
 .navItem {
   padding: 0.6rem;
+  font-size: 1.2vw;
   color: white;
   
 }
@@ -79,12 +80,12 @@ a {
   text-align: center;
   justify-content: center;
   display: inline;
-  margin-left: 28%;
+  margin-left: 25%;
   color: white;
 }
 
 .foot {
-  padding: 1.2rem;
+  padding: 0.6vw;
   font-size: 1.8rem;
   color:white;
 }
@@ -92,9 +93,9 @@ a {
 .list-group {
   margin: 3rem;
   margin-left: 35%;
-  margin-right: 35%;
+  margin-right: 34%;
   width: 30vw;
-  height: 50vh;
+  height: 40vh;
   font-size: 1.5rem;
   background-color: rgb(117, 117, 117);
   border-radius: 1.5rem;
@@ -105,8 +106,8 @@ a {
 }
 
 img {
-  height: 14vw;
-  width: 26vw;
+  height: 12vw;
+  width: 23vw;
 }
 
 .text {
